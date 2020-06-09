@@ -1,0 +1,119 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing:border-box;
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	
+}
+h1,h2,h3,h4,h5,h6,p,ul{
+	margin: 0px;
+	padding: 0px;
+}
+img{
+	border: none;
+}
+a{
+	text-decoration: none;
+}
+.container{
+	width:100%;
+	max-width: 1170px;
+	margin: 0 auto;
+}
+.FIRSTHEADER{
+	width:100%;
+	background-color: #3b6978;
+	height:30vh;
+}
+.TEXT{
+	display:inline-flex;
+}
+
+.left h1{
+color: #ffffff;
+font-family: 'Tenali Ramakrishna', sans-serif;
+font-size: 70px;
+padding-top: 30px;
+padding-right: 60px;
+line-height: 0.9;
+cursor: pointer;
+}
+.right h4{
+   color: #18b0b0;
+   font-size: 20px;
+   padding:20px 20px;
+  }
+
+  .TEXT .right ul li a{
+color: #ffffff;
+padding:0 10px;
+}
+.TEXT .right ul{
+list-style: none;
+display:flex;
+}
+.TEXT .right ul li{
+	margin-right: 5px;
+}
+
+.left h1:hover{
+	color:#18b0b0;
+}
+
+.TEXT .right ul li a:hover{
+	color:#18b0b0;
+}
+.Venue{
+	width:100%;
+	background-color: #f4f7c5;
+	display: inline-block;
+	height:30vh;
+}
+.Venue .text{
+	color:#127681;
+    text-align: center;
+    padding-top: 50px;
+    line-height: 2;
+    font-size: 20px;
+}
+.middle{
+	width:100%;
+	height:70vh;
+	background-color: #ffff;
+
+}
+.left2
+{
+	padding-top:100px;
+	color:gray;
+	font-size: 18px;
+	display: inline-block;
+}
+.left2 a{
+	color:gray;
+
+}
+.left2 a:hover{
+	color:#000;
+}
+.right2 {
+	display:inline-block;
+	
+}
+.right2 .frame{
+	padding-left:200px;
+	padding-top: 200px;
+	width:800px;
+	height:450px;
+}
+.LAST{
+	background-color: #3b6978;
+	width: 100%;
+	display:inline-block;
+	height:20vh;
+	padding:20px;
+	font-size: 30px;
+}
